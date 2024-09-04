@@ -3,8 +3,8 @@
 
 // 2. Create a variable, sum, and set it to the sum of the two cards
 
-let firstCard = 6
-let secondCard = 9
+let firstCard = 9
+let secondCard = 7
 
 let sum = firstCard + secondCard
 
