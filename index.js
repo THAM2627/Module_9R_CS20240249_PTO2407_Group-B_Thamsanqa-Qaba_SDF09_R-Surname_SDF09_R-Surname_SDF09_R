@@ -7,5 +7,15 @@ let firstCard = 9
 let secondCard = 7
 
 let sum = firstCard + secondCard
+let hasBlackJack = false
+
+if(sum <= 20) {
+    console.log("Do you want to draw a new card?")
+    } else if (sum === 21) {
+        console.log("We've got a Winner")
+        hasBlackJack = true
+    } else {
+        console.log("Oh,sorry. Would you like to try again?")
+    }
 
 console.log(sum)
