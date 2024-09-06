@@ -29,6 +29,7 @@ function renderGame() {
     for (let i = 0; i < cards.length; i++) {
         cardsEL.textContent += cards[i] + " "
     }
+
     sumEl.textContent = " Sum: " + sum
 if(sum <= 20) {
         message = "Do you want to draw a new card?"
@@ -39,8 +40,9 @@ if(sum <= 20) {
         message = "Oh,sorry. Would you like to try again?"
         isAlive = false
     }
+    messageEL.textContent = message
 }
-messageEL.textContent = message
+
 
 function newCard(){
     console.log("Drawing a new card from the deck!")
