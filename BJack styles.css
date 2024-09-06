@@ -11,7 +11,7 @@ h1{
     color:goldenrod;
 }
 
-#BJack--message{
+#BJack__message {
     font-style: italic;
 
 }
@@ -26,5 +26,7 @@ button{
     padding-bottom: 5px;
     border: none;
     border-radius: 5px;
-    
+    margin-bottom: 2px;
+    margin-top: 2px;
 }
+
